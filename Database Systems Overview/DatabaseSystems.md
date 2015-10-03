@@ -2,11 +2,11 @@
 
 ###**1. What database models do you know?**###
 	
-	##**There are a lot of database models here are some of them:**##
-		**1. Hierarchical model** - the data is organized into a tree-like structure.
-		**2. Network model** - a flexible way of representing objects and their relationships
-		**3. Relational model** - managing data using a structure and language cinsistent with first-order predicate logic.
-		**4. Object model** - the infromation is represented as object as used in the OOP.
+	There are a lot of database models here are some of them:
+		1. Hierarchical model** - the data is organized into a tree-like structure.
+		2. Network model** - a flexible way of representing objects and their relationships
+		3. Relational model** - managing data using a structure and language cinsistent with first-order predicate logic.
+		4. Object model** - the infromation is represented as object as used in the OOP.
 			and so on...
 	
 ###**2. Which are the main functions performed by a Relational Database Management System (RDBMS)?**###
@@ -36,17 +36,17 @@
 	A foreign key is a field or collection of fields in one table that identifies a row of another table uniquely.
 	
 ###**5. Explain the different kinds of relationships between tables in relational databases.**###
-	**One-to-one** - it's a relationship in which one entry of a table can't be connected to more than one.
-	**One-to-many** - one entry can be connected to many others.
-	**Many-to-many** - many entries are connected to monay other entries. Usually is implemented by a third table connecting the other two tables.
+	One-to-one - it's a relationship in which one entry of a table can't be connected to more than one.
+	One-to-many - one entry can be connected to many others.
+	Many-to-many - many entries are connected to monay other entries. Usually is implemented by a third table connecting the other two tables.
 
 ###**6. When is a certain database schema normalized?  What are the advantages of normalized databases?**###
 	A database schema is normalized when all the tables are written to contain the data without repeating.
-	**Advantages:**
+	Advantages:
 		The work is faster.
 		More flexible.
 		More compact.
-	**Disadvantages**
+	Disadvantages
 		More tables to join.
 		Tables contain more codes than data.
 
@@ -55,17 +55,17 @@
 	There are domain integrity, entity integrity, referential integrity and foreign key integrity.
 	
 	Domain integrity is the definition of a valid set of values for an attribute.
-	**Entity integrity constraint** - primary keys can't be null.
-	**Referential integrity constraint** - Used to maintain the consistency among rows between two tables.
+	Entity integrity constraint - primary keys can't be null.
+	Referential integrity constraint - Used to maintain the consistency among rows between two tables.
 	
-	**Foreign key integrity constraint - There are two types:**
+	Foreign key integrity constraint - There are two types:
 		Cascade update related fields - whenever you change the primary key of a row in the primary table, the foreign key values are updated.
 		Cacsade delete related rows - the same thing as the other but in case you delete a primary key.
 		
 ###**8. Point out the pros and cons of using indexes in a database.**###
-	**Advantage**:
+	Advantage:
 		- quick access to the data int the database.
-	**Disadvantage**:
+	Disadvantage:
 		- writing to the table is slower.
 
 ###**9. What's the main purpose of the SQL language?**###
@@ -79,12 +79,12 @@
 	Non relational database - the data is not stored in tables.
 	
 ###**12. Explain the classical non-relational data models.**###
-	**Key-value storage** - very powerful model, data is represented as a collection of key-value pairs.
-	**Document store** - documents in the database are addressed via a unique key.
-	**Graph** - designed for data whose relations are represented as a graph.
+	Key-value storage - very powerful model, data is represented as a collection of key-value pairs.
+	Document store - documents in the database are addressed via a unique key.
+	Graph - designed for data whose relations are represented as a graph.
 	
 ###**13. Give few examples of NoSQL databases and their pros and cons.**###
-	**MongoDB** - suitable in case there will be a lot of writing to the database and Big Data volumes.
-	**Redis** - fast and good performance, stores the data in RAM.
-	**CouchDB** - best for Web, every change is stored on the disk as a file.
-	**HBase** - spreads the data out among nodes using HDFS. Used for managing huge tables consisting of billions of rows.
+	MongoDB - suitable in case there will be a lot of writing to the database and Big Data volumes.
+	Redis* - fast and good performance, stores the data in RAM.
+	CouchDB - best for Web, every change is stored on the disk as a file.
+	HBase - spreads the data out among nodes using HDFS. Used for managing huge tables consisting of billions of rows.
