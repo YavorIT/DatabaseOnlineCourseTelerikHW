@@ -3,10 +3,10 @@
 ###**1. What database models do you know?**###
 	
 	There are a lot of database models here are some of them:
-		1. Hierarchical model** - the data is organized into a tree-like structure.
-		2. Network model** - a flexible way of representing objects and their relationships
-		3. Relational model** - managing data using a structure and language cinsistent with first-order predicate logic.
-		4. Object model** - the infromation is represented as object as used in the OOP.
+		1. Hierarchical model - the data is organized into a tree-like structure.
+		2. Network model - a flexible way of representing objects and their relationships
+		3. Relational model - managing data using a structure and language cinsistent with first-order predicate logic.
+		4. Object model - the infromation is represented as object as used in the OOP.
 			and so on...
 	
 ###**2. Which are the main functions performed by a Relational Database Management System (RDBMS)?**###
@@ -85,6 +85,6 @@
 	
 ###**13. Give few examples of NoSQL databases and their pros and cons.**###
 	MongoDB - suitable in case there will be a lot of writing to the database and Big Data volumes.
-	Redis* - fast and good performance, stores the data in RAM.
+	Redis - fast and good performance, stores the data in RAM.
 	CouchDB - best for Web, every change is stored on the disk as a file.
 	HBase - spreads the data out among nodes using HDFS. Used for managing huge tables consisting of billions of rows.
