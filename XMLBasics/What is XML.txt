@@ -1,0 +1,6 @@
+XML - Extensible markup language.
+Represents data and the way it is stored. XML is used to make a scheme or something to describe the data in both human-readable
+and machine-readable form. IT is mainly used for the interchange of data over the internet.
+XML is similar to HTML. They both are markup languages.
+The difference is that XML is more flexible - it's tags are not predefined (you can name them whatever you want)  
+and it is develope to describe data not web pages.

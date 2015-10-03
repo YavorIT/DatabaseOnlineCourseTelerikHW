@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<persons>
+  <person>
+    <name>John Smith</name>
+    <address>75 Rose avenue, Chicago IL, USA</address>
+    <phone-number>00561 356 782 456</phone-number>
+  </person>
+</persons>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir path="TraverseDirectoryLINQ">
+  <dir path="TraverseDirectoryLINQ\bin">
+    <dir path="TraverseDirectoryLINQ\bin\Debug">
+      <file name="TraverseDirectoryLINQ.exe" />
+      <file name="TraverseDirectoryLINQ.exe.config" />
+      <file name="TraverseDirectoryLINQ.pdb" />
+      <file name="TraverseDirectoryLINQ.vshost.exe" />
+      <file name="TraverseDirectoryLINQ.vshost.exe.config" />
+      <file name="TraverseDirectoryLINQ.vshost.exe.manifest" />
+    </dir>
+  </dir>
+  <dir path="TraverseDirectoryLINQ\obj">
+    <dir path="TraverseDirectoryLINQ\obj\Debug">
+      <dir path="TraverseDirectoryLINQ\obj\Debug\TempPE" />
+      <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+      <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+      <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+      <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      <file name="TraverseDirectoryLINQ.csproj.FileListAbsolute.txt" />
+      <file name="TraverseDirectoryLINQ.csprojResolveAssemblyReference.cache" />
+      <file name="TraverseDirectoryLINQ.exe" />
+      <file name="TraverseDirectoryLINQ.pdb" />
+    </dir>
+  </dir>
+  <dir path="TraverseDirectoryLINQ\Properties">
+    <file name="AssemblyInfo.cs" />
+  </dir>
+  <file name="App.config" />
+  <file name="Program.cs" />
+  <file name="TraverseDirectoryLINQ.csproj" />
+</dir>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+	<album>
+		<name>Without paints</name>
+		<artist>Emil Dimitrov</artist>
+	</album>
+	<album>
+		<name>Blackout</name>
+		<artist>Britney Spears</artist>
+	</album>
+	<album>
+		<name>Escape</name>
+		<artist>Enrique Iglesias</artist>
+	</album>
+</albums>

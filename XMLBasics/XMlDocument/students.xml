@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students
+    xmlns:students="urn:students-best:Telerik">
+  <student>
+    <name>Ivan Ivanov Ivanov</name>
+    <sex>male</sex>
+    <birth-date>01.01.1993</birth-date>
+    <phone>02 456-53-21</phone>
+    <email>ivan@gmail.com</email>
+    <course>Computer Science</course>
+    <specialty>System Administrator</specialty>
+    <faculty-number>0762</faculty-number>
+      <exam>
+        <name>Linux</name>
+        <tutor>I. Petkov</tutor>
+        <score>83</score>
+      </exam>
+      <exam>
+        <name>Database</name>
+        <tutor>D. Georgieva</tutor>
+        <score>90</score>
+      </exam>
+      <exam>
+        <name>Mathematics</name>
+        <tutor>M. Zahariev</tutor>
+        <score>75</score>
+      </exam>
+    <enrollment>
+      <date>12/03/2012</date>
+      <examScore>83</examScore>
+    </enrollment>
+    <teachersEndorsements>
+      <endorsement>Linux</endorsement>
+    </teachersEndorsements>
+  </student>  
+  <student>
+    <name>Petur Ivanov Georgiev</name>
+    <sex>male</sex>
+    <birth-date>10.12.1989</birth-date>
+    <phone>0855555555</phone>
+    <email>PGeorgiev108255@gmail.com</email>
+    <course>Computer Science</course>
+    <specialty>Quality Assurance</specialty>
+    <faculty-number>0762</faculty-number>
+      <exam>
+        <name>Mathematics</name>
+        <tutor>G. Petrov</tutor>
+        <score>63</score>
+      </exam>
+      <exam>
+        <name>English</name>
+        <tutor>O. Kirilov</tutor>
+        <score>86</score>
+      </exam>
+      <exam>
+        <name>Operation Systems</name>
+        <tutor>E. Marinov</tutor>
+        <score>94</score>
+      </exam>
+    <enrollment>
+      <date>07/07/2010</date>
+      <examScore>90</examScore>
+    </enrollment>
+    <teachersEndorsements>
+      <endorsement>Operation Systems</endorsement>
+    </teachersEndorsements>
+  </student>
+</students>

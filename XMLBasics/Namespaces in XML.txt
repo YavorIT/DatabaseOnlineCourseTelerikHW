@@ -1,0 +1,3 @@
+Namespace in XML are a way to separate the elements and make them unique.
+With a namespace you can tell the machine to understand two exactly the same tags like two completely
+different things.
