@@ -5,13 +5,13 @@
 1. Write a program that retrieves from the Northwind sample database in MS SQL Server the number of rows in the Categories table.
 2. Write a program that retrieves the name and description of all categories in the Northwind DB.
 3. Write a program that retrieves from the Northwind database all product categories and the names of the products in each category.
-	*Can you do this with a single SQL query (with table join)?
+	* Can you do this with a single SQL query (with table join)?
 4. Write a method that adds a new product in the products table in the Northwind database.
 	*Use a parameterized SQL command.
 5. Write a program that retrieves the images for all categories in the Northwind database and stores them as JPG files in the file system.
 6. Create an Excel file with 2 columns: name and score:
 	
-	![Excel Table](/images/excel.png)
+	![Excel Table](https://github.com/YavorIT/DatabaseOnlineCourseTelerikHW/blob/master/ADO.NET/images/excel.png?raw=true)
 
 	* Write a program that reads your MS Excel file through the OLE DB data provider
 and displays the name and score row by row.
