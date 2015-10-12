@@ -17,8 +17,9 @@
             // task 05 - write a method that finds all the sales by specified region and period (start / end dates).
             DateTime startDate = new DateTime(1996, 12, 4);
             DateTime endDate = new DateTime(1997, 2, 23);
+            string region = "RJ";
 
-            FindAllSalesInGivenPeriod(startDate, endDate);
+            FindAllSalesInGivenRegionAndPeriod(startDate, endDate, region);
         }
 
         public static void FindCustomers()
@@ -69,7 +70,7 @@
             }
         }
 
-        public static void FindAllSalesInGivenPeriod(DateTime startDate, DateTime endDate)
+        public static void FindAllSalesInGivenRegionAndPeriod(DateTime startDate, DateTime endDate, string region)
         {
             using (var dataBase = new NORTHWNDEntities())
             {
@@ -79,15 +80,17 @@
                                              pr.Product.ProductName,
                                              pr.Quantity,
                                              pr.UnitPrice,
-                                             pr.Order.OrderDate
+                                             pr.Order.OrderDate,
+                                             pr.Order.ShipRegion
                                          })
                                          .ToList()
-                                         .FindAll(s => s.OrderDate >= startDate && s.OrderDate <= endDate);
+                                         .FindAll(s => s.OrderDate >= startDate && s.OrderDate <= endDate && s.ShipRegion == region);
 
-                Console.WriteLine("\nProduct | Quantity | Unit Price | Date\n");
+                Console.WriteLine("\nRegion | Product | Quantity | Unit Price | Date\n");
                 foreach (var sale in salesInGivenPeriod)
                 {
-                    Console.WriteLine("{0,-35} | {1,-3} | {2,-5:00:00} | {3}", sale.ProductName, 
+                    Console.WriteLine("{0,-3} | {1,-35} | {2,-3} | {3,-5:00:00} | {4}", sale.ShipRegion, 
+                                                                            sale.ProductName, 
                                                                             sale.Quantity, 
                                                                             sale.UnitPrice, 
                                                                             sale.OrderDate);
