@@ -8,10 +8,12 @@
     public class Course
     {
         private ICollection<Student> students;
+        private ICollection<Homework> homeworks;
 
         public Course()
         {
             this.students = new HashSet<Student>();
+            this.homeworks = new HashSet<Homework>();
         }
 
         public int CourseID { get; set; }
@@ -25,15 +27,16 @@
 
         public string Materials { get; set; }
 
-        [ForeignKey("Homework")]
-        public int? HomeworkID { get; set; }
-
-        public virtual Homework Homework { get; set; }
-
         public virtual ICollection<Student> Students
         {
             get { return this.students; }
             set { this.students = value; }
+        }
+
+        public virtual ICollection<Homework> Homeworks
+        {
+            get { return this.homeworks; }
+            set { this.homeworks = value; }
         }
     }
 }

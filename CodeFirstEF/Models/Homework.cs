@@ -8,14 +8,6 @@
     [Table("Homeworks")]
     public class Homework
     {
-        private ICollection<Student> students;
-        private ICollection<Course> courses;
-
-        public Homework()
-        {
-            this.students = new HashSet<Student>();
-            this.courses = new HashSet<Course>();
-        }
         public int HomeworkID { get; set; }
 
         [Required]
@@ -24,17 +16,14 @@
         [Required]
         public DateTime TimeSent { get; set; }
 
+        [ForeignKey("Student")]
+        public int StudentID { get; set; }
 
-        public virtual ICollection<Student> Students
-        {
-            get { return this.students; }
-            set { this.students = value; }
-        }
+        [ForeignKey("Course")]
+        public int CourseID { get; set; }
 
-        public virtual ICollection<Course> Courses
-        {
-            get { return this.courses; }
-            set { this.courses = value; }
-        }
+        public virtual Student Student { get; set; }
+
+        public virtual Course Course { get; set; }
     }
 }
